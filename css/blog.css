@@ -1,0 +1,93 @@
+/* Geral */
+* {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+#content {
+    display: flex;
+}
+
+#content-box {
+    background-color: #61c4a6;
+    margin: 3rem 12rem;
+    padding: 10rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);
+}
+
+#content-box h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#content-box a {
+    display: block;
+    height: auto;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#btn {
+    background-color: #01875F;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+#btn:hover {
+    text-decoration: none;
+    color: #095944;
+    background-color: transparent;
+    border-color: #095944;
+}
+
+/* Footer */
+.footer {
+    background-color: #F8F9FA;
+    padding-top: 2rem;
+}
+
+#box-foot {
+    display: flex;
+    text-align: center;
+}
+
+#about h4, #tutorials h4 {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+#about p, #tutorials a {
+    font-size: 1.2rem;
+}
+
+#links li {
+    padding-bottom: 3rem;
+}
+
+#links a {
+    font-size: 1.5rem;
+}
+
+#links i {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+}

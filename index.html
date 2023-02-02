@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Scholarium</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+
+    
+
+    
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<meta name="theme-color" content="#712cf9">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link href="/css/blog.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<div class="container">
+  <header class="blog-header lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-dark" href="#">Scholarium</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <div class="col-4 pt-1">
+        <a class="link-secondary" href="assinaturas.html">Assinaturas</a>
+      </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 link-secondary" href="#">Turmas</a>
+      <a class="p-2 link-secondary" href="#">Alunos</a>
+      <a class="p-2 link-secondary" href="#">Périodos</a>
+      <a class="p-2 link-secondary" href="#">Horários</a>
+      <a class="p-2 link-secondary" href="#">Avisos</a>
+      <a class="p-2 link-secondary" href="#">Atestados</a>
+      <a class="p-2 link-secondary" href="#">Método Avaliativo - Tradicional</a>
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic">Como adicionar um aluno em uma turma ?</h1>
+      <p class="lead my-3">Esse tutorial irá explicar passo-a-passo como incluir um aluno em uma turma já existente.</p>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue lendo...</a></p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Turma</strong>
+          <h3 class="mb-0">Como criar uma turma ?</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">Esse tutorial explica como criar uma turma no aplicativo scholarium.</p>
+          <a href="#" class="stretched-link">Continue lendo</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img width="200" height="250"  src="https://scholarium.com.br/img/logo.png"/>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Método Avaliativo - Tradicional</strong>
+          <h3 class="mb-0">Nova Prova</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">Para criar uma prova em uma turma basta acessar a turma e clicar no botão nova prova</p>
+          <a href="#" class="stretched-link">Continue lendo</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+              <img width="200" height="250"  src="https://scholarium.com.br/img/logo.png"/>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="content" class="row g-5">
+    <div id="content-box" class="col-md-8">
+      
+      <h1>Aplicativo Disponivel no Google Play</h1>
+      <a href="#" id="btn">Baixe Aqui</a>
+      
+    </div>
+
+</main>
+<footer class="footer">
+  <div class="col-md-4">
+    <div id="box-foot" class="row-cols-1" style="top: 2rem;">
+      <div id="about" class="p-4 mb-3 bg-light rounded">
+        <h4 class="fst-italic">Sobre</h4>
+        <p class="mb-0">O aplicativo scholarium tem como objetivo principal ajudar professores nas atividades pedagógicas.</p>
+      </div>
+
+      <div id="tutorials" class="p-4">
+        <h4 class="fst-italic">Tutoriais</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">Criar Turma</a></li>
+          <li><a href="#">Adicionar Aluno</a></li>
+          <li><a href="#">Organizar Período</a></li>
+          <li><a href="#">Método Avalativo - Tradicional</a></li>
+        </ol>
+      </div>
+
+      <div id="links" class="p-4">
+        <ol class="list-unstyled">
+          <li>
+            <a href="https://www.instagram.com/guilhermeguss/">Instagram
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://play.google.com/store/apps?hl=pt-BR">Play Store
+              <i class="fa-brands fa-google-play"></i>
+            </a>
+          </li>
+        </ol>
+      </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+  </body>
+</html>
