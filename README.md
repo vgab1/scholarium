@@ -1,2 +1,2 @@
 # scholarium
- site em desenvolvimento "https://scholarium.com.br/"
+ site em desenvolvimento https://scholarium.com.br/
