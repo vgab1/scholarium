@@ -9,3 +9,23 @@ body {
 .pricing-header {
   max-width: 700px;
 }
+
+/* footer */
+#footer {
+  background-color: #F8F9FA;
+  padding-bottom: 2rem;
+}
+
+#box-foot {
+  display: flex;
+  text-align: center;
+}
+
+#about h4, #tutorials h4 {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+#about p, #tutorials a {
+  font-size: 1.2rem;
+}
