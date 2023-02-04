@@ -27,6 +27,7 @@ a:hover {
 /* Banner */
 #content {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #content-box {
@@ -103,3 +104,65 @@ a:hover {
     padding-left: 1rem;
     font-size: 1.6rem;
 }
+
+/* Resposivo */
+  /* header e info */
+  @media (max-width: 576px) {
+    .container {
+      width: 100%;
+    }
+
+    .col-md-6 {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+      .pb-3 {
+        padding-bottom: 1rem;
+    }
+
+      .mt-2 {
+        margin-top: 0.5rem;
+    }
+
+      .mt-md-0 {
+        margin-top: 0;
+    }
+
+    /* Banner */
+    #content-box {
+        flex: 1 1 100%;
+        margin: 2rem 1rem;
+        padding: 3rem;
+        box-shadow: none;
+    }
+    
+    #btn {
+        width: 50px;
+        height: 30px;
+        padding: 5px 10px;
+        border-radius: 15px;
+    }
+
+  }
+
+  /* Footer */
+  @media (max-width: 991px) {
+    .footer .col-md-4 {
+      width: 100%;
+      text-align: center;
+    }
+  }

@@ -89,29 +89,49 @@
   </symbol>
 </svg>
 
-<div class="container py-3">
-  <header>
-    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-        <img width="80" height="80" src="img/logo.png"/>
-        <span class="fs-4">Scholarium App</span>
-      </a>
-
-      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Funções</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Suporte</a>
-        <a class="py-2 text-dark text-decoration-none" href="#">Preços</a>
-      </nav>
-    </div>
-
-    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 fw-normal">Scholarium</h1>
-      <p class="fs-5 text-muted">Sistema de organização de atividades escolares.</p>
-    </div>
-  </header>
-
+<!-- Header -->
+  <div class="container py-4">
+    <header>
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+          <img width="80" height="80" src="img/logo.png"/>
+          <span class="fs-4">Scholarium App</span>
+        </a>
+  
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Suporte</a>
+        </nav>
+      </div>
+  
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Scholarium</h1>
+        <p class="fs-5 text-muted">Sistema de organização de atividades escolares.</p>
+      </div>
+    </header>
+  </div>
+<!-- Cards -->
   <main>
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+          <div class="card-header py-3 text-bg-secondary border-secondary" >
+            <h4 class="my-0 fw-normal">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$ 0</h1>
+            <ul class="list-unstyled mt-3 mb-5">
+              <li>10 alunos</li>
+              <li>2 turmas</li>
+              <li>3 atividades por turma</li>
+              <li>Relógio das aulas para 2 turmas</li>
+              <li>Sem Controle de avisos</li>
+              <li>Sem Controle de atestados</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-secondary">Baixe Agora</button>
+          </div>
+        </div>
+      </div>
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm border-danger">
           <div class="card-header py-3 text-bg-danger border-danger" >
@@ -176,28 +196,30 @@
   </main>
 </div>    
 
+<!-- Footer -->
 <footer id="footer" class="pt-4 pt-md-5 border-top">
-    <div class="col-md-6">
-      <div id="box-foot" class="row-cols-1" style="top: 2rem;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
         <div id="about" class="p-4 mb-3 bg-light rounded">
-          <h4 class="fst-italic">Sobre</h4>
-          <p class="mb-0">O aplicativo scholarium tem como objetivo principal ajudar professores nas atividades pedagógicas.</p>
+          <h4 class="fst-italic text-center">Sobre</h4>
+          <p class="mb-0 text-center">O aplicativo scholarium tem como objetivo principal ajudar professores nas atividades pedagógicas.</p>
         </div>
-  
+      </div>
+      <div class="col-md-6">
         <div id="tutorials" class="p-4">
-          <h4 class="fst-italic">Tutoriais</h4>
-          <ol class="list-unstyled mb-0">
+          <h4 class="fst-italic text-center">Tutoriais</h4>
+          <ol class="list-unstyled mb-0 text-center">
             <li><a href="#">Criar Turma</a></li>
             <li><a href="#">Adicionar Aluno</a></li>
             <li><a href="#">Organizar Período</a></li>
             <li><a href="#">Método Avalativo - Tradicional</a></li>
           </ol>
         </div>
-        </div>
       </div>
     </div>
+  </div>
 </footer>
-
 
     
   </body>
