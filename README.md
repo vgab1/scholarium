@@ -1,3 +1,3 @@
 # scholarium
- site em desenvolvimento - https://scholarium.com.br/
- Sistema de organização de atividades escolares.
+Sistema de organização de atividades escolares.
+site em desenvolvimento - https://scholarium.com.br/
