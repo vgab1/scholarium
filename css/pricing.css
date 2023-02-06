@@ -7,6 +7,7 @@ main {
   font-size: 1.1rem;
 }
 
+/* Cards */
 .container {
   max-width: 960px;
 }
@@ -15,15 +16,11 @@ main {
   max-width: 700px;
 }
 
-.btn-warning {
-  --bs-btn-color: #FFF;
+.btn-warning:hover {
+  background-color: #e7ae01;
 }
 
-.text-bg-warning {
-  color: #FFF!important;
-}
-
-/* footer */
+/* Footer */
 #footer {
   background-color: #F8F9FA;
   padding-bottom: 2rem;
@@ -41,6 +38,7 @@ main {
 
 #about p, #tutorials a {
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 /* Responsivo */
