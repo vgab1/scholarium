@@ -1,3 +1,14 @@
+:root {
+  --card-0-color: #A3A3AA;
+  --card-1-color: #E69F72;
+  --card-2-color: #379C8C;
+  --card-3-color: #456BA4;
+  --card-btn-0: #7C7C85;
+  --card-btn-1: #CE8B64;
+  --card-btn-2: #2b8374;
+  --card-btn-3: #3A6081;
+}
+
 body {
   background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
 }
@@ -15,9 +26,71 @@ main {
 .pricing-header {
   max-width: 700px;
 }
+/* Card Free */
+.border-free {
+  border-color: var(--card-0-color);
+}
 
-.btn-warning:hover {
-  background-color: #e7ae01;
+#header-free {
+  background-color: var(--card-0-color);
+}
+
+#btn-free {
+  background-color: var(--card-0-color);
+}
+
+#btn-free:hover {
+  background-color: var(--card-btn-0);
+}
+
+/* Card Mensal */
+.border-month {
+  border-color: var(--card-1-color);
+}
+
+#header-month {
+  background-color: var(--card-1-color);
+}
+
+#btn-month {
+  background-color: var(--card-1-color);
+}
+
+#btn-month:hover {
+  background-color: var(--card-btn-1);
+}
+/* Card Semestral */
+.border-semester {
+  border-color: var(--card-2-color);
+}
+
+#header-semester {
+  background-color: var(--card-2-color);
+}
+
+#btn-semester {
+  background-color: var(--card-2-color);
+}
+
+#btn-semester:hover {
+  background-color: var(--card-btn-2);
+}
+
+/* Card Anual */
+.border-year {
+  border-color: var(--card-3-color);
+}
+
+#header-year {
+  background-color: var(--card-3-color);
+}
+
+#btn-year {
+  background-color: var(--card-3-color);
+}
+
+#btn-year:hover {
+  background-color: var(--card-btn-3);
 }
 
 /* Footer */
