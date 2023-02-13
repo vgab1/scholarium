@@ -9,6 +9,10 @@
   --card-btn-3: #3A6081;
 }
 
+* {
+  font-family: "Lato", sans-serif;
+}
+
 body {
   background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
 }
@@ -16,6 +20,15 @@ body {
 main {
   margin: 2rem;
   font-size: 1.1rem;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Cards */
@@ -119,6 +132,16 @@ main {
   main {
     font-size: 15px;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  #subtitle-m {
+    display: none;
+  }
+
   .d-flex {
     flex-direction: column;
   }

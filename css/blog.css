@@ -73,37 +73,25 @@ a:hover {
 }
 
 /* Footer */
-.footer {
+#footer {
     background-color: #F8F9FA;
-    padding-top: 2rem;
-}
-
-#box-foot {
+    padding-bottom: 2rem;
+  }
+  
+  #box-foot {
     display: flex;
     text-align: center;
-}
-
-#about h4, #tutorials h4 {
+  }
+  
+  #about h4, #tutorials h4 {
     font-weight: bold;
     font-size: 1.8rem;
-}
-
-#about p, #tutorials a {
+  }
+  
+  #about p, #tutorials a {
     font-size: 1.2rem;
-}
-
-#links li {
-    padding-bottom: 3rem;
-}
-
-#links a {
-    font-size: 1.5rem;
-}
-
-#links i {
-    padding-left: 1rem;
-    font-size: 1.6rem;
-}
+    text-decoration: none;
+  }
 
 /* Resposivo */
   /* header e info */
@@ -125,6 +113,10 @@ a:hover {
     h1 {
       font-size: 2rem;
     }
+
+    #subtitle-m {
+        display: none;
+      }
 
     .d-flex {
         flex-direction: column;
@@ -157,12 +149,4 @@ a:hover {
         border-radius: 15px;
     }
 
-  }
-
-  /* Footer */
-  @media (max-width: 991px) {
-    .footer .col-md-4 {
-      width: 100%;
-      text-align: center;
-    }
   }

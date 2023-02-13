@@ -11,22 +11,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
-
-    
-
-    
-
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<meta name="theme-color" content="#712cf9">
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#712cf9">
 
 
     <style>
@@ -85,26 +80,26 @@
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link href="/css/blog.css" rel="stylesheet">
   </head>
   <body>
-    
+
+<!-- Header -->
 <div class="container">
-  <!-- Header -->
   <header>
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-        <img width="80" height="80" src="img/logo.png"/>
-        <span class="fs-4">Scholarium App</span>
+        <img width="100" height="100" src="img/logo.png"/>
+        <span id="subtitle-m" class="fs-1">Scholarium App</span>
       </a>
-      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="link-secondary" href="assinaturas.html">Assinaturas</a>
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto fs-5">
+        <a class="me-5 py-2 link-secondary" href="assinaturas.html">Assinaturas</a>
+        <a class="me-3 py-2 link-secondary" href="#">Suporte</a>
       </nav>
     </div>
-
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
       <h1 class="display-4 fw-normal">Scholarium</h1>
       <p class="fs-5 text-muted">Sistema de organização de atividades escolares.</p>
@@ -161,16 +156,16 @@
   </div>
 </main>
 <!-- Footer -->
-<footer class="footer">
+<footer id="footer" class="pt-4 pt-md-5 border-top">
   <div class="container-fluid">
-    <div class="row justify-content-around">
-      <div class="col-md-4 col-sm-6">
+    <div class="row">
+      <div class="col-md-6">
         <div id="about" class="p-4 mb-3 bg-light rounded">
           <h4 class="fst-italic text-center">Sobre</h4>
           <p class="mb-0 text-center">O aplicativo scholarium tem como objetivo principal ajudar professores nas atividades pedagógicas.</p>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-6">
         <div id="tutorials" class="p-4">
           <h4 class="fst-italic text-center">Tutoriais</h4>
           <ol class="list-unstyled mb-0 text-center">
@@ -181,24 +176,8 @@
           </ol>
         </div>
       </div>
-      <div class="col-md-3 col-sm-12">
-        <div id="links" class="p-5">
-          <ol class="list-unstyled text-center">
-            <li>
-              <a href="https://www.instagram.com/guilhermeguss/">Instagram
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://play.google.com/store/apps?hl=pt-BR">Play Store
-                <i class="fa-brands fa-google-play"></i>
-              </a>
-            </li>
-          </ol>
-        </div>
-      </div>
     </div>
   </div>
-</footer>    
+</footer>
 </body>
 </html>
