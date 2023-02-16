@@ -35,7 +35,7 @@ a:hover {
   margin: 3rem 12rem;
   padding: 10rem;
   border-radius: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.307);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);
 }
 
 #content-box h1 {
@@ -93,6 +93,7 @@ font-size: 1.2rem;
 text-decoration: none;
 }
 
+
 /* Resposivo */
 /* header e info */
 @media (max-width: 576px) {
@@ -105,7 +106,7 @@ text-decoration: none;
     margin-bottom: 1rem;
   }
 
-  img {
+  #img-m {
     width: 100%;
     height: auto;
   }
