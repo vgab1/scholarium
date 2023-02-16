@@ -1,152 +1,152 @@
 /* Geral */
 * {
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
-    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
 }
 
 a {
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .title {
-    color: #495057;
+  color: #495057;
 }
 
 .container {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 /* Banner */
 #content {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #content-box {
-    background-color: #d5f7f2;
-    margin: 3rem 12rem;
-    padding: 10rem;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);
+  background-color: #d5f7f2;
+  margin: 3rem 12rem;
+  padding: 10rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);
 }
 
 #content-box h1 {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 #content-box a {
-    display: block;
-    height: auto;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+  display: block;
+  height: auto;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
 #btn {
-    background-color: #FFF;
-    color: #379C8C;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100px;
-    height: 60px;
-    padding: 15px 20px;
-    border-radius: 30px;
-    border: 3px solid #379C8C;
-    transition: .5s;
+  background-color: #FFF;
+  color: #379C8C;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: 3px solid #379C8C;
+  transition: .5s;
 }
 
 #btn:hover {
-    text-decoration: none;
-    background-color: #379C8C;
-    color: #FFF;
-    border-color: #379C8C;
+  text-decoration: none;
+  background-color: #379C8C;
+  color: #FFF;
+  border-color: #379C8C;
 }
 
 /* Footer */
 #footer {
-    background-color: #F8F9FA;
-    padding-bottom: 2rem;
-  }
-  
-  #box-foot {
-    display: flex;
-    text-align: center;
-  }
-  
-  #about h4, #tutorials h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-  }
-  
-  #about p, #tutorials a {
-    font-size: 1.2rem;
-    text-decoration: none;
-  }
+background-color: #F8F9FA;
+padding-bottom: 2rem;
+}
+
+#box-foot {
+display: flex;
+text-align: center;
+}
+
+#about h4, #tutorials h4 {
+font-weight: bold;
+font-size: 1.8rem;
+}
+
+#about p, #tutorials a {
+font-size: 1.2rem;
+text-decoration: none;
+}
 
 /* Resposivo */
-  /* header e info */
-  @media (max-width: 576px) {
-    .container {
-      width: 100%;
-    }
-
-    .col-md-6 {
-      width: 100%;
-      margin-bottom: 1rem;
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    #subtitle-m {
-        display: none;
-      }
-
-    .d-flex {
-        flex-direction: column;
-    }
-
-      .pb-3 {
-        padding-bottom: 1rem;
-    }
-
-      .mt-2 {
-        margin-top: 0.5rem;
-    }
-
-      .mt-md-0 {
-        margin-top: 0;
-    }
-
-    /* Banner */
-    #content-box {
-        flex: 1 1 100%;
-        margin: 2rem 1rem;
-        padding: 3rem;
-        box-shadow: none;
-    }
-    
-    #btn {
-        width: 50px;
-        height: 30px;
-        padding: 5px 10px;
-        border-radius: 15px;
-    }
-
+/* header e info */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
   }
+
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #subtitle-m {
+      display: none;
+    }
+
+  .d-flex {
+      flex-direction: column;
+  }
+
+    .pb-3 {
+      padding-bottom: 1rem;
+  }
+
+    .mt-2 {
+      margin-top: 0.5rem;
+  }
+
+    .mt-md-0 {
+      margin-top: 0;
+  }
+
+  /* Banner */
+  #content-box {
+      flex: 1 1 100%;
+      margin: 2rem 1rem;
+      padding: 3rem;
+      box-shadow: none;
+  }
+  
+  #btn {
+      width: 50px;
+      height: 30px;
+      padding: 5px 10px;
+      border-radius: 15px;
+  }
+
+}
